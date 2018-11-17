@@ -10,7 +10,7 @@ namespace:
 
 rolebinding:
   names:
-  - justin
+  - rimmer
 
 nodeSelector: {}
 

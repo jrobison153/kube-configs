@@ -1,7 +1,7 @@
 kind: Namespace
 apiVersion: v1
 metadata:
-  name: {{ .Values.name }}
+  name: {{ .Values.namespace.name }}
   labels:
-    name: {{ .Values.name }}
+    name: {{ .Values.namespace.name }}
 

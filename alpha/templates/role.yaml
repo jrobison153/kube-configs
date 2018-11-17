@@ -4,6 +4,6 @@ metadata:
   namespace: {{ .Values.namespace.name }}
   name: {{ .Values.namespace.name }}-full-access-role
 rules:
-- apiGroups: [""]
-  resources: [""]
+- apiGroups: ["*"]
+  resources: ["*"]
   verbs: ["*"]
