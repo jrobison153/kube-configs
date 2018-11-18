@@ -23,6 +23,6 @@ export ISTIO_HOME=<path to istio install>
 
 # Layout
 
-`istio` - Scripts to install and unistall istio from the cluster
+`istio` - Scripts to install and uninstall istio from the cluster
 `alpha` - Helm charts showing how to create a secure isolated team
 `user` - Scripts to create RBAC user accounts and add them to minikube as users
